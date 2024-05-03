@@ -1,0 +1,146 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* header info styling */
+.header-navbar-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header {
+    text-align: center;
+    padding: 0.5% 1%;
+    color: whitesmoke;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-color: #897663;
+}
+
+/* navbar styling */
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: #897663;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar-brand .main-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.navbar-brand .sub-text {
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-top: -7px;
+}
+
+.navbar-brand:hover {
+    color: #897663;
+}
+
+.nav-link {
+    letter-spacing: -0.8px;
+    color: black;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* carousel styling */
+.carousel-item img {
+    height: 80vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* Best sellers section styling */
+.card:hover {
+    cursor: pointer;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.card-title {
+    text-align: left;
+    line-height: -2;
+    letter-spacing: -1px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-text {
+    float: left;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+}
+
+
+.best-sellers-div {
+    margin-bottom: 1%;
+}
+
+.btn-product-card {
+    background-color: #897663;
+    color: white;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.btn-product-card:hover {
+    background-color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    color: black;
+    border: 1px solid #897663;
+}
+
+/* image section styling */
+#img-bg {
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1621277906553-047eaaef4400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+}
+
+/* footer styling */
+footer {
+    padding-top: 0.1%;
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.text-reset:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    background-Color: #897663;
+    color: white;
+}
+
+
+/* media width styling */
+@media (max-width: 472px) {
+    header {
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
