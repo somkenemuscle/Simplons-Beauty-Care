@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../syles/error.css';
+import '../../styles/error.css';
 import Footer from '../../components/footer/footer.jsx'
 import { Link } from "react-router-dom";
 import { FcSearch } from "react-icons/fc";

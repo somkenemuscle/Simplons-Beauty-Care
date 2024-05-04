@@ -7,6 +7,8 @@ import Navbar from "./components/navbar/navbar";
 import Error from "./pages/error/error";
 import Products from "./pages/products/products";
 import Carts from "./pages/carts/carts";
+import Gallery from "./pages/gallery/gallery";
+
 import './App.css';
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contacts />} />
         <Route path="/cart" element={<Carts />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

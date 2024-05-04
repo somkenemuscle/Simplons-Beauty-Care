@@ -12,7 +12,7 @@
     border: none;
     padding: 8px;
     border-radius: 5px;
-    letter-spacing: -0.4px;
+    letter-spacing: 0.4px;
 }
 
 #error-container .button:hover {

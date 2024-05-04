@@ -3,7 +3,7 @@ import Carousel from '../../components/carousel/carousel';
 import Footer from '../../components/footer/footer';
 import ProductCards from '../../components/productCards/productCards';
 import LogoCarousel from '../../components/logoCarousel/logoCarousel';
-import '../../syles/home.css'
+import '../../styles/home.css'
 
 function Home() {
   return (
@@ -15,7 +15,6 @@ function Home() {
         <h2>START YOUR SELF CARE JOURNEY</h2>
         <p>Self care is a personal journey and we're here to guide you along the way. Contact our self care experts for more help.</p>
       </section>
-
 
       {/* best sellers section */}
       <section id='best-sellers-section'>

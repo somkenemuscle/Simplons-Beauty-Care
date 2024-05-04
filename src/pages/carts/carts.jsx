@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../syles/cart.css'
+import '../../styles/cart.css'
 
 function Carts() {
   return (
