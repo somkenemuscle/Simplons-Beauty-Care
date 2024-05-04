@@ -26,6 +26,14 @@ nav {
     color: #897663;
 }
 
+.navbar-brand:active {
+    color: #897663;
+}
+
+.navbar-brand:focus {
+    color: #897663;
+}
+
 .nav-link {
     letter-spacing: -0.8px;
     color: black;

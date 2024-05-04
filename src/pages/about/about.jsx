@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../syles/about.css'
 
 function About() {
   return (

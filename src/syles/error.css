@@ -1,0 +1,30 @@
+#error-container {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 7%;
+    padding: 9px;
+    font-family: sans-serif;
+}
+
+#error-container .button {
+    background-color: #897663;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    letter-spacing: -0.4px;
+}
+
+#error-container .button:hover {
+    background-color: #71604f;
+    color: white;
+}
+
+#error-container h3 {
+    letter-spacing: -0.5px;
+    font-weight: 600;
+}
+
+#error-container h1 {
+    font-size: 60px;
+}
