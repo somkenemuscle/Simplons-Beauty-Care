@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../syles/footer.css'
 
 function Footer() {
     return (
@@ -20,7 +20,7 @@ function Footer() {
 
                         <div className="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
-                                Customer 
+                                Customer
                             </h6>
                             <p>
                                 <a href="/" className="text-reset">Contact Us</a>

@@ -1,0 +1,44 @@
+/* navbar styling */
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: #897663;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar-brand .main-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.navbar-brand .sub-text {
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-top: -7px;
+}
+
+.navbar-brand:hover {
+    color: #897663;
+}
+
+.nav-link {
+    letter-spacing: -0.8px;
+    color: black;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* carousel styling */
+.carousel-item img {
+    height: 80vh;
+    max-width: 100%;
+    object-fit: cover;
+}

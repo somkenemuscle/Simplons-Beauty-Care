@@ -3,15 +3,13 @@ import Carousel from '../../components/carousel/carousel';
 import Footer from '../../components/footer/footer';
 import ProductCards from '../../components/productCards/productCards';
 import LogoCarousel from '../../components/logoCarousel/logoCarousel';
-import '../../App.css';
-
+import '../../syles/home.css'
 
 function Home() {
   return (
     <div>
       {/* carousel section */}
       <Carousel />
-
       {/* promo section */}
       <section id='promo-section'>
         <h2>START YOUR SELF CARE JOURNEY</h2>

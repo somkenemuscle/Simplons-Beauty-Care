@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { Outlet, Link } from "react-router-dom";
-
+import '../../syles/navbar.css'
 
 function navbar() {
     return (

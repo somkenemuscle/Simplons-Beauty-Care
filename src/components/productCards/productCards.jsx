@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../syles/productCard.css'
 
 function productCards({ src, name, price }) {
   return (

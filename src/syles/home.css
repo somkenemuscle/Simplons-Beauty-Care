@@ -1,0 +1,114 @@
+/* best sellers section */
+#best-sellers-section {
+    padding-top: 5px;
+    padding-bottom: 4%;
+}
+
+#best-sellers-section h2 {
+    text-align: center;
+    letter-spacing: -0.8px;
+    padding-bottom: 1%;
+    font-weight: 600;
+    color: #897663;
+}
+
+
+/* marque infinite scroll section styling */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.sponsors-container {
+    padding: 50px 0;
+    margin: 0 5%;
+}
+
+.sponsors-container h2 {
+    text-align: center;
+    color: #897663;
+    font-weight: 600;
+    letter-spacing: -3px;
+    padding-bottom: 20px;
+}
+
+.logos {
+    overflow: hidden;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 30px;
+    margin: 0 40px;
+}
+
+/* image section styling */
+#img-bg {
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1621277906553-047eaaef4400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+}
+
+/* services promo styling section */
+#promo-section {
+    text-align: center;
+    padding: 2%;
+}
+
+#promo-section h2 {
+    color: #897663;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+}
+
+#promo-section p {
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* media width styling */
+@media (max-width: 700px) {
+    #promo-section {
+        padding-bottom: 4%;
+    }
+
+    #promo-section p {
+        max-width: 70%;
+        margin: 0 auto;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+}
