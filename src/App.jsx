@@ -5,6 +5,9 @@ import Contacts from "./components/contacts/contacts";
 import About from "./components/about/about";
 import Navbar from "./components/navbar/navbar";
 import Error from "./components/error/error";
+import Products from "./components/products/products";
+import Carts from "./components/carts/carts";
+
 import './App.css';
 
 function App() {
@@ -22,6 +25,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contacts />} />
+        <Route path="/cart" element={<Carts />} />
+        <Route path="/products" element={<Products />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
