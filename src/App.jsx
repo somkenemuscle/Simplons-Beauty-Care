@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/home/home";
-import Contacts from "./components/contacts/contacts";
-import About from "./components/about/about";
+import Home from "./pages/home/home";
+import Contacts from "./pages/contacts/contacts";
+import About from "./pages/about/about";
 import Navbar from "./components/navbar/navbar";
-import Error from "./components/error/error";
-import Products from "./components/products/products";
-import Carts from "./components/carts/carts";
+import Error from "./pages/error/error";
+import Products from "./pages/products/products";
+import Carts from "./pages/carts/carts";
 
 import './App.css';
 

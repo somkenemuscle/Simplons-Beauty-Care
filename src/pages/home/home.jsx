@@ -1,8 +1,8 @@
 import React from 'react'
-import Carousel from '../carousel/carousel';
-import Footer from '../footer/footer';
-import ProductCards from '../productCards/productCards';
-import LogoCarousel from '../logoCarousel/logoCarousel';
+import Carousel from '../../components/carousel/carousel';
+import Footer from '../../components/footer/footer';
+import ProductCards from '../../components/productCards/productCards';
+import LogoCarousel from '../../components/logoCarousel/logoCarousel';
 import '../../App.css';
 
 
