@@ -12,7 +12,7 @@ function Error() {
         <h3>Page Not Found !</h3>
         <p>We're sorry, but the page you're looking for could not be found.</p>
         <Link to="/">
-          <button className="button" >GO TO HOMEPAGE</button>
+          <button className="button" >Keep Shopping</button>
         </Link>
       </div>
       <Footer />
