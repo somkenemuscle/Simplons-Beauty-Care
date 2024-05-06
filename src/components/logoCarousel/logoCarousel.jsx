@@ -15,29 +15,31 @@ function LogoCarousel() {
                 <h2>OUR SPONSORS</h2>
                 <div className="logos">
                     <div className="logos-slide">
-                        <img src={logo1} alt='...' />
-                        <img src={logo2} alt='...' />
+                        <img src='https://static.thcdn.com/widgets/257-en/57/original-saie-125757.jpg' alt='...' />
                         <img src={logo6} alt='...' />
                         <img src={logo4} alt='...' />
+                        <img src={logo3} alt='...' />
                         <img src={logo1} alt='...' />
-                        <img src={logo2} alt='...' />
+                        <img src='https://static.thcdn.com/widgets/257-en/57/original-saie-125757.jpg' alt='...' />
                         <img src={logo3} alt='...' />
                         <img src={logo4} alt='...' />
                         <img src={logo1} alt='...' />
-                        <img src={logo2} alt='...' />
+                        <img src={logo5} alt='...' />
+
+
                     </div>
 
                     <div className="logos-slide">
+                        <img src='https://static.thcdn.com/widgets/257-en/57/original-saie-125757.jpg' alt='...' />
                         <img src={logo1} alt='...' />
-                        <img src={logo2} alt='...' />
                         <img src={logo3} alt='...' />
                         <img src={logo4} alt='...' />
+                        <img src='https://static.thcdn.com/widgets/257-en/57/original-saie-125757.jpg' alt='...' />
                         <img src={logo6} alt='...' />
-                        <img src={logo2} alt='...' />
                         <img src={logo3} alt='...' />
                         <img src={logo5} alt='...' />
                         <img src={logo1} alt='...' />
-                        <img src={logo6} alt='...' />
+                        <img src='https://static.thcdn.com/widgets/257-en/46/original-kiehls-125846.png' alt='...' />
                     </div>
                 </div>
             </section>

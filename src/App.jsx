@@ -12,6 +12,7 @@ import Gallery from "./pages/gallery/gallery";
 import './App.css';
 
 function App() {
+  
   return (
     <BrowserRouter>
       <div className='header-navbar-wrapper' >

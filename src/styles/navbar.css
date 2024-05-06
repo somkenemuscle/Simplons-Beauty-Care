@@ -35,10 +35,10 @@ nav {
 }
 
 .nav-link {
-    letter-spacing: -0.4px;
+    letter-spacing: -0.2px;
     color: black;
     font-weight: 400;
-    font-family: sans-serif;
+    font-size: 14px;
 }
 
 .nav-link:hover {
