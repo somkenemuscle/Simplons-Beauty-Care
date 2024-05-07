@@ -1,3 +1,24 @@
+/* selfcare section */
+#selfcare-section {
+    text-align: center;
+    padding: 40px 2% 40px 2%;
+}
+
+#selfcare-section h2 {
+    color: #897663;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#selfcare-section p {
+    max-width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    font-family: "Poppins", sans-serif;
+}
+
 /* best sellers section */
 #best-sellers-section {
     padding-top: 5px;
@@ -6,61 +27,17 @@
 
 #best-sellers-section h2 {
     text-align: center;
-    letter-spacing: -0.8px;
+    letter-spacing: 1px;
     padding-bottom: 1%;
     font-weight: 600;
     color: #897663;
 }
 
-
-/* marque infinite scroll section styling */
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-.sponsors-container {
-    padding: 50px 0;
-    margin: 0 5%;
-}
-
-.sponsors-container h2 {
-    text-align: center;
-    color: #897663;
-    font-weight: 600;
-    letter-spacing: -3px;
-    padding-bottom: 20px;
-}
-
+/* logo section */
 .logos {
-    overflow: hidden;
     background: white;
-    white-space: nowrap;
     position: relative;
-}
-
-.logos:before,
-.logos:after {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-}
-
-.logos:hover .logos-slide {
-    animation-play-state: paused;
-}
-
-.logos-slide {
-    display: inline-block;
-    animation: 35s slide infinite linear;
+    text-align: center;
 }
 
 .logos-slide img {
@@ -68,32 +45,51 @@
     margin: 0 40px;
 }
 
-/* image section styling */
-#img-bg {
-    height: 60vh;
-    background-image: url('https://images.unsplash.com/photo-1621277906553-047eaaef4400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+/* image discount section styling */
+.img2-section .img2-text {
+    margin-top: 7%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.img2-section h3 {
+    letter-spacing: 1px;
+}
+
+.img2-section p {
+    color: #7e7e7e;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 10px;
+}
+
+.img2-section button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    border: 1px solid black;
+}
+
+.img2-section button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+.img2-section #img-bg {
+    height: 50vh;
+    background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+    margin-left: -9px;
 }
 
-/* services promo styling section */
-#promo-section {
-    text-align: center;
-    padding: 2%;
-}
-
-#promo-section h2 {
-    color: #897663;
-    font-weight: 600;
-    letter-spacing: -0.8px;
-}
-
-#promo-section p {
-    max-width: 60%;
-    margin: 0 auto;
-    font-size: 25px;
-    font-weight: 300;
-    letter-spacing: 1px;
+.img2-section #img-bg:hover {
+    opacity: 0.8;
+    transition: 0.2s;
 }
 
 /* media width styling */

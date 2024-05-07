@@ -3,7 +3,6 @@
     margin-top: 3%;
     margin-bottom: 7%;
     padding: 9px;
-    font-family: sans-serif;
 }
 
 #error-container .button {
@@ -12,7 +11,8 @@
     border: none;
     padding: 8px;
     border-radius: 5px;
-    letter-spacing: 0.4px;
+    letter-spacing: -0.3px;
+    font-family: "Poppins", sans-serif;
 }
 
 #error-container .button:hover {
@@ -21,10 +21,16 @@
 }
 
 #error-container h3 {
-    letter-spacing: -0.5px;
+    letter-spacing: 2px;
     font-weight: 600;
 }
 
 #error-container h1 {
     font-size: 60px;
+    letter-spacing: 2px;
+}
+
+#error-container p {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
 }
