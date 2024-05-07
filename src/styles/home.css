@@ -6,7 +6,7 @@
 }
 
 .carousel-text-bg {
-    background-color: whitesmoke;
+    background-color: rgb(250, 250, 250);
     margin-left: -12px;
     padding: 54px;
     text-align: left;
@@ -22,7 +22,14 @@
     background-color: black;
     color: white;
     border: none;
-    padding: 6px;
+    padding: 3px 13px 3px 13px;
+    border: 1px solid black;
+}
+
+.carousel-text-bg button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
 }
 
 /* selfcare section */
@@ -165,6 +172,12 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .carousel-text-bg {
+        padding-top: 3%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .carousel-text-bg {
         padding-top: 5%;
@@ -173,7 +186,11 @@
     }
 }
 
-
+@media screen and (max-width: 1150px) {
+    #selfcare-section p {
+        max-width: 85%;
+    }
+}
 
 @media (prefers-reduced-motion) {
 
