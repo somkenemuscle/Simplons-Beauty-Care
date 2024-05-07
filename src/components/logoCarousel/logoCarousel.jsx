@@ -2,26 +2,28 @@ import React from 'react'
 import logo1 from '../../images/logos/3m.svg'
 import logo3 from '../../images/logos/menshealth.svg'
 import logo4 from '../../images/logos/mrbeast.svg'
-import logo6 from '../../images/logos/macys.svg'
-import '../../App.css'
+import logo2 from '../../images/logos/buzzfeed.svg'
+import '../../styles/home.css'
 
 function LogoCarousel() {
     return (
         <div>
-            {/* marque sponsors logo section */}
-            <section className='sponsors-container'>
-                <h2>OUR SPONSORS</h2>
-                <div className="logos">
-                    <div className="logos-slide">
-                        <img src={logo1} alt='...' />
-                        <img src={logo3} alt='...' />
-                        <img src={logo6} alt='...' />
-                        <img src={logo4} alt='...' />
-                    </div>
+            <div className="logo-container container text-center">
+                <div className="row">
+                    <span className="col-xl-3 col-md-6 col-sm-12">
+                        <img className='logos' src={logo3} alt='...' />
+                    </span>
+                    <span className="col-xl-3 col-md-6 col-sm-12">
+                        <img className='logos' src={logo2} alt='...' />
+                    </span>
+                    <span className="col-xl-3 col-md-6 col-sm-12">
+                        <img className='logos' src={logo1} alt='...' />
+                    </span>
+                    <span className="col-xl-3 col-md-6 col-sm-12">
+                        <img className='logos' src={logo4} alt='...' />
+                    </span>
                 </div>
-            </section>
-
-
+            </div>
         </div>
     )
 }

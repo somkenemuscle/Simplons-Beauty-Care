@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/cart.css'
+import '../../styles/contacts.css'
 function Contacts() {
   return (
     <div>Contacts</div>

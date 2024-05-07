@@ -50,9 +50,3 @@ nav {
     cursor: pointer;
 }
 
-/* carousel styling */
-.carousel-item img {
-    height: 80vh;
-    max-width: 100%;
-    object-fit: cover;
-}

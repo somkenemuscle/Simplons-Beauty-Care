@@ -2,11 +2,11 @@ import React from 'react'
 import Carousel from '../../components/carousel/carousel';
 import Footer from '../../components/footer/footer';
 import ProductCards from '../../components/productCards/productCards';
+import LogoCarousel from '../../components/logoCarousel/logoCarousel';
 import '../../styles/home.css'
 import { useEffect } from 'react';
 
 function Home() {
-
   //Fade in Animation
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -78,15 +78,13 @@ function Home() {
         </div>
       </section>
 
-      {/* logo-carousel section */}
-     
 
       {/* img section */}
       <section className='img2-section hidden'>
         <div className="container">
           <div className="row">
             <div className="img2-text col-xl-6 col-md-6 col-sm-12">
-              <h3>Get Up To 20% Discount </h3>
+              <h3>Get up to 20% discount </h3>
               <p>Can't decide between your favorites? Get them all! Our
                 premade sets include our best-selling products like Liquid Lash™ Extensions Mascara, Infinity Waterproof Eyeliner™, and our luminous Brilliant Eye Brightener™.
                 For every product we will be giving out thus 20% discount.
@@ -97,6 +95,11 @@ function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* logo-carousel section */}
+      <section className='hidden'>
+        <LogoCarousel />
       </section>
 
       {/* feedback option */}

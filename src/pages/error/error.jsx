@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/error.css';
-import Footer from '../../components/footer/footer.jsx'
 import { Link } from "react-router-dom";
 import { FcSearch } from "react-icons/fc";
 
@@ -15,7 +14,6 @@ function Error() {
           <button className="button" >Keep Shopping</button>
         </Link>
       </div>
-      <Footer />
     </div>
   )
 }
