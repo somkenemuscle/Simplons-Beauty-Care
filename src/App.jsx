@@ -5,14 +5,18 @@ import Contacts from "./pages/contacts/contacts";
 import About from "./pages/about/about";
 import Navbar from "./components/navbar/navbar";
 import Error from "./pages/error/error";
-import Products from "./pages/products/products";
 import Carts from "./pages/carts/carts";
 import Gallery from "./pages/gallery/gallery";
+import Nail from './pages/products/nail';
+import Jewellry from './pages/products/jewellry';
+import Makeup from './pages/products/makeup';
+import Skin from './pages/products/skin';
+import Weddingkits from './pages/products/weddingkits';
+import Hair from './pages/products/hair';
 
 import './App.css';
 
 function App() {
-  
   return (
     <BrowserRouter>
       <div className='header-navbar-wrapper' >
@@ -28,7 +32,12 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contacts />} />
         <Route path="/cart" element={<Carts />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/products/nail" element={<Nail />} />
+        <Route path="/products/jewellry" element={<Jewellry />} />
+        <Route path="/products/makeup" element={<Makeup />} />
+        <Route path="/products/skin" element={<Skin />} />
+        <Route path="/products/weddingkits" element={<Weddingkits />} />
+        <Route path="/products/hair" element={<Hair />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<Error />} />
       </Routes>

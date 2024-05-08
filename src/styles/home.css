@@ -33,7 +33,7 @@
 }
 
 /* selfcare section */
-#selfcare-section {
+/* #selfcare-section {
     text-align: center;
     padding: 40px 2% 40px 2%;
 }
@@ -51,20 +51,20 @@
     font-weight: 300;
     letter-spacing: -0.3px;
     font-family: "Poppins", sans-serif;
-}
+} */
 
 /* best sellers section */
 #best-sellers-section {
-    padding-top: 5px;
+    padding-top: 5%;
     padding-bottom: 4%;
 }
 
 #best-sellers-section h2 {
-    text-align: center;
+    text-align: left;
     letter-spacing: 1px;
     padding-bottom: 1%;
     font-weight: 600;
-    color: #897663;
+    color: black;
 }
 
 

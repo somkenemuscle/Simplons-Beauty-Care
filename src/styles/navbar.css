@@ -15,14 +15,14 @@ nav {
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: 600;
-    color: #897663;
+    color: black;
 }
 
 .navbar-brand .sub-text {
     font-size: 15px;
     letter-spacing: 3px;
     margin-top: -7px;
-    color: #897663;
+    color: rgb(76, 74, 74);
 }
 
 .navbar-brand:hover {
@@ -49,4 +49,3 @@ nav {
     text-decoration: underline;
     cursor: pointer;
 }
-

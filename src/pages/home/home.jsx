@@ -36,15 +36,15 @@ function Home() {
       </section>
 
       {/* promo section */}
-      <section className='hidden' id='selfcare-section'>
+      {/* <section className='hidden' id='selfcare-section'>
         <h2>START YOUR SELF CARE JOURNEY</h2>
-        <p>Self care is a personal journey and we're here to guide you along the way. Contact our self care experts for more help.</p>
-      </section>
+        <p></p>
+      </section> */}
 
       {/* best sellers section */}
       <section className='hidden' id='best-sellers-section'>
-        <h2>MEET OUR BEST SELLERS</h2>
         <div className="container text-center">
+        <h2>MEET OUR BEST SELLERS</h2>
           <div className="row">
             <div className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <ProductCards

@@ -19,11 +19,12 @@ function navbar() {
                             <li className="nav-item dropdown">
                                 <Link className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/products">SHOP</Link>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="/products">Hair</Link></li>
-                                    <li><Link className="dropdown-item" to="/products">Skin</Link></li>
-                                    <li><Link className="dropdown-item" to="/products">Jewelry</Link></li>
-                                    <li><Link className="dropdown-item" to="/products">Makeup Kits</Link></li>
-                                    <li><Link className="dropdown-item" to="/products">Nail Arts</Link></li>
+                                    <li><Link className="dropdown-item" to="/products/hair">Hair</Link></li>
+                                    <li><Link className="dropdown-item" to="/products/skin">Skin</Link></li>
+                                    <li><Link className="dropdown-item" to="/products/jewellry">Jewellry</Link></li>
+                                    <li><Link className="dropdown-item" to="/products/makeup">Makeup Kits</Link></li>
+                                    <li><Link className="dropdown-item" to="/products/nail">Nail Arts</Link></li>
+                                    <li><Link className="dropdown-item" to="/products/weddingkits">Wedding Kits</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
