@@ -1,8 +1,6 @@
 body {
-    /* font-family: "Poppins", sans-serif;
-     */
-     font-family: "Platform Regular", Arial sans-serif;
-     font-weight: light;
+    font-family: "Poppins", sans-serif;    
+     /* font-family: "Platform Regular", Arial sans-serif; */
 }
 
 /* header info styling */
@@ -15,10 +13,10 @@ body {
 header {
     text-align: center;
     padding: 0.5% 1%;
-    color: white;
+    color: black;
     font-size: 14px;
     letter-spacing: 2px;
-    background-color: black;
+    background: linear-gradient(to right, #fffdfd, #f6f2f2);
 }
 
 /* media width styling */

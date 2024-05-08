@@ -1,0 +1,32 @@
+/* product styling */
+.product-header-container {
+    background: linear-gradient(to right, #ffffff, #f6f2f2);
+    text-align: center;
+    margin-bottom: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.product-container {
+    margin-bottom: 7%;
+}
+
+.product-header-container h2 {
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.product-header-container p {
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+
+/* MEDIA QUERY FOR PRODUCTS */
+@media screen and (max-width: 900px) {
+    .product-header-container p {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+}

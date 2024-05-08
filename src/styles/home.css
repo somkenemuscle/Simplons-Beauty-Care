@@ -1,21 +1,21 @@
 /* carousel styling */
 .carousel-item img {
-    height: 60vh;
+    height: 80vh;
     max-width: 100%;
     object-fit: cover;
 }
 
 .carousel-text-bg {
-    background-color: rgb(250, 250, 250);
+    background: linear-gradient(to right, #ffffff, #f6f2f2);
     margin-left: -12px;
     padding: 54px;
     text-align: left;
     padding-top: 10%;
 }
 
+
 .carousel-text-bg p {
-    letter-spacing: 1px;
-    font-family: "Poppins", sans-serif;
+    letter-spacing: -0.1px;
 }
 
 .carousel-text-bg button {

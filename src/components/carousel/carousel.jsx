@@ -11,7 +11,7 @@ function carousel() {
                     <div className="row">
                         <div className="col-xl-8 col-md-7 col-sm12 ">
                             <img
-                                src='https://images.unsplash.com/photo-1522108098940-de49801b5b40?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                src='https://images.unsplash.com/photo-1551392505-f4056032826e?q=80&w=2855&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                 className="img-fluid small-image d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-text-bg col-xl-4 col-md-5 col-sm-12">
@@ -26,11 +26,11 @@ function carousel() {
                     <div className="row">
                         <div className="col-xl-8 col-md-7 col-sm-12">
                             <img
-                                src='https://images.unsplash.com/photo-1586811032606-f8fd4a8f80dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                src='https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?q=80&w=2978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                 className="img-fluid small-image d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-text-bg col-xl-4 col-md-5 col-sm-12">
-                            <h2>Get Started With Our Products</h2>
+                            <h2> Makeup With Our Products</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, blanditiis ullam molestias iste voluptatum o sdhd sdsjdsn sjdssdj </p>
                             <button>SHOP NOW</button>
                         </div>

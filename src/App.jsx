@@ -13,11 +13,13 @@ import Makeup from './pages/products/makeup';
 import Skin from './pages/products/skin';
 import Weddingkits from './pages/products/weddingkits';
 import Hair from './pages/products/hair';
+import { CartProvider } from "./context/cartContext";
 
 import './App.css';
 
 function App() {
   return (
+    <CartProvider>
     <BrowserRouter>
       <div className='header-navbar-wrapper' >
         {/* header section */}
@@ -42,6 +44,7 @@ function App() {
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
+    </CartProvider>
   );
 }
 

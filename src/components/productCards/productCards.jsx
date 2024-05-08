@@ -2,8 +2,21 @@ import React from 'react'
 import '../../styles/productCard.css'
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import { skincareProducts } from '../../database/skincare';
+import { useCart } from '../../context/cartContext';
 
-function productCards({ src, name, price }) {
+
+function ProductCards({ src, name, price, id }) {
+  // cart global state
+  const { cart, setCart } = useCart();
+
+  //handle cart functionality
+  function handleCart(id) {
+    const product = skincareProducts.find(product => product.id === id);
+    setCart([...cart, product]); // Adding product to cart
+    console.log(cart)
+  }
+
   return (
     <>
       <div className="card">
@@ -14,9 +27,9 @@ function productCards({ src, name, price }) {
           <p className="card-text">$ {price} USD </p>
         </div>
       </div>
-      <button className="btn btn-product-card btn-sm" data-mdb-ripple-init>ADD TO CART  </button>
+      <button onClick={() => handleCart(id)} className="btn btn-product-card btn-sm" data-mdb-ripple-init>ADD TO CART </button>
     </>
   )
 }
 
-export default productCards
+export default ProductCards
