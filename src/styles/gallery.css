@@ -1,0 +1,23 @@
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 25px; 
+    margin-top: 20px;
+  }
+  
+  .gallery-container img {
+    width: 100%;
+    height: auto;
+  }
+  header{
+    margin-bottom: 20px;
+  }
+  .header1{
+    font-size: 20px;
+    font-weight:300;
+  }
+  .header2{
+    font-size: 15px;
+    font-weight: 150;
+  }
+  
