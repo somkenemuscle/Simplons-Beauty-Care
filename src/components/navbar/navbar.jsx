@@ -17,7 +17,7 @@ function navbar() {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/products">SHOP</Link>
+                                <Link className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/products">Shop</Link>
                                 <ul className="dropdown-menu">
                                     <li><Link className="dropdown-item" to="/products/hair">Hair</Link></li>
                                     <li><Link className="dropdown-item" to="/products/skin">Skin</Link></li>
@@ -28,19 +28,19 @@ function navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" to="/gallery">GALLERY</Link>
+                                <Link className="nav-link" aria-current="page" to="/gallery">Gallery</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" to="/about">ABOUT US</Link>
+                                <Link className="nav-link" aria-current="page" to="/about">About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" to="/contact">CONTACT US</Link>
+                                <Link className="nav-link" aria-current="page" to="/contact">Contact Us</Link>
                             </li>
 
 
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/cart">
-                                    CART</Link>
+                                    Cart</Link>
                             </li>
                         </ul>
                     </div>

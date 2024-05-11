@@ -1,31 +1,14 @@
 import React from 'react'
 import ProductCards from '../../components/productCards/productCards'
 import Footer from '../../components/footer/footer'
-import { useEffect } from 'react';
 import '../../styles/products.css'
 import { skincareProducts } from '../../database/skincare';
+import useSlideAnimation from '../../animation/useSlideAnimation';
 
 function Skin() {
 
   //Slide animation functionality
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('revealed');
-          entry.target.classList.remove('hidden');
-          observer.unobserve(entry.target); // Stop observing once revealed
-        }
-      });
-    });
-
-    const hiddenElements = document.querySelectorAll('.hidden');
-    hiddenElements.forEach((el) => observer.observe(el));
-
-    return () => {
-      hiddenElements.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
+  useSlideAnimation();
 
   return (
     <div className='hidden'>
@@ -37,7 +20,7 @@ function Skin() {
       <div className="product-container container text-center">
         <div className="row">
           {skincareProducts.map(product => (
-            <div key={product.id} className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div key={product.id} className="best-sellers-div col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
               <ProductCards
                 src={product.imageSrc}
                 name={product.name}
@@ -48,7 +31,6 @@ function Skin() {
           ))}
         </div>
       </div>
-
       <Footer />
     </div>
   )

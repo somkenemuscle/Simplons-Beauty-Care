@@ -66,3 +66,11 @@
     color: black;
     border: 1px solid black;
 }
+
+/*  MEDIA WIDTH STYLING */
+@media (min-width: 400px) and (max-width: 581px) {
+    .best-sellers-div {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }

@@ -3,30 +3,12 @@ import Carousel from '../../components/carousel/carousel';
 import Footer from '../../components/footer/footer';
 import ProductCards from '../../components/productCards/productCards';
 import LogoCarousel from '../../components/logoCarousel/logoCarousel';
+import useSlideAnimation from '../../animation/useSlideAnimation';
 import '../../styles/home.css'
-import { useEffect } from 'react';
 
 function Home() {
   //Fade in Animation
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('revealed');
-          entry.target.classList.remove('hidden');
-          observer.unobserve(entry.target); // Stop observing once revealed
-        }
-      });
-    });
-
-    const hiddenElements = document.querySelectorAll('.hidden');
-    hiddenElements.forEach((el) => observer.observe(el));
-
-    return () => {
-      hiddenElements.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
-
+  useSlideAnimation();
 
   return (
     <div>
@@ -44,7 +26,7 @@ function Home() {
       {/* best sellers section */}
       <section className='hidden' id='best-sellers-section'>
         <div className="container text-center">
-        <h2>MEET OUR BEST SELLERS</h2>
+          <h2>MEET OUR BEST SELLERS</h2>
           <div className="row">
             <div className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <ProductCards
@@ -56,7 +38,7 @@ function Home() {
             <div className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <ProductCards
                 src='https://credobeauty.com/cdn/shop/files/Evolvh_InstaVolumeCleansingTreatment_01_1946x.png?v=1697121088'
-                name='Tumeric Mask Vitamin B'
+                name='Tumeric Mask'
                 price='12.45'
               />
             </div>

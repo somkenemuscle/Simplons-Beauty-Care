@@ -1,30 +1,13 @@
 import React from 'react'
 import ProductCards from '../../components/productCards/productCards'
 import Footer from '../../components/footer/footer'
-import { useEffect } from 'react';
 import '../../styles/products.css'
+import useSlideAnimation from '../../animation/useSlideAnimation';
 
 
 function Makeup() {
   //Slide animation functionality
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('revealed');
-          entry.target.classList.remove('hidden');
-          observer.unobserve(entry.target); // Stop observing once revealed
-        }
-      });
-    });
-
-    const hiddenElements = document.querySelectorAll('.hidden');
-    hiddenElements.forEach((el) => observer.observe(el));
-
-    return () => {
-      hiddenElements.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
+  useSlideAnimation();
 
   return (
     <div className='hidden'>

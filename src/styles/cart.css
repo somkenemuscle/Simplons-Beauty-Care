@@ -1,0 +1,157 @@
+/* cart container styling */
+.cart-container {
+  margin-bottom: 10%;
+  font-family: "Inter", sans-serif;
+}
+.breadcrumb {
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-bottom: 3%;
+}
+.breadcrumb-item {
+  color: black;
+}
+
+#no-cart-page {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 13%;
+}
+
+#cart-header {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-img {
+  width: 80px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-details span {
+  margin: 0 0 5px;
+  letter-spacing: -0.3px;
+  font-weight: 500;
+}
+
+.item-details p {
+  margin: 0;
+  color: #666;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+.remove-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  color: #ff2121;
+}
+
+
+/* order summary style */
+.order-summary {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background: linear-gradient(to right, #ffffff, #fdfcfc);
+  width: 25%;
+  margin-left: 8%;
+  height: 300px;
+}
+
+.order-summary h2 {
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.order-details {
+  margin-top: 10px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.checkout-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.checkout-btn:hover {
+  background: linear-gradient(to right, #ffffff, #f6f2f2);
+  color: black;
+  transition: 0.2s;
+}
+
+#clear-cart {
+  text-align: center;
+  padding-top: 1.8%;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #4d4c4c;
+}
+
+/* media query styling */
+@media screen and (max-width: 991px) {
+  .order-summary {
+    width: 90%;
+    padding: 20px 120px 50px 120px;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .order-summary {
+    padding: 20px 80px 50px 80px;
+
+
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .order-summary {
+    padding: 20px 50px 50px 50px;
+
+
+  }
+}
