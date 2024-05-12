@@ -37,9 +37,9 @@ function Carts() {
 
               <div className="row">
                 <div className="col-lg-7 col-md-12">
-                  {cart.map(item => (
+                  {cart.map((item, index) => (
                     <CartCards
-                      key={item.id}
+                      key={index}
                       img={item.imageSrc}
                       name={item.name}
                       price={item.price}

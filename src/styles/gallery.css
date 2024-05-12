@@ -1,3 +1,8 @@
+.gallery-bg {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 .gallery-item {
     display: flex;
     align-items: center;
@@ -40,7 +45,21 @@
 .fullscreen-content img {
     max-width: 100%;
     max-height: 80vh;
-    /* Adjust as needed */
     display: block;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 650px) {
+    .fullscreen-modal {
+        display: none;
+    }
+
+    .fullscreen-content img {
+        display: none;
+    }
+
+    .fullscreen-content {
+        display: none;
+    }
+
 }

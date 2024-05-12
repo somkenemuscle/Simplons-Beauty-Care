@@ -6,22 +6,21 @@
 }
 
 #error-container .button {
-    background-color: #897663;
+    background-color: black;
     color: white;
     border: none;
     padding: 8px;
     border-radius: 5px;
     letter-spacing: -0.3px;
-    font-family: "Poppins", sans-serif;
 }
 
 #error-container .button:hover {
-    background-color: #71604f;
+    background-color: rgb(61, 59, 59);
     color: white;
 }
 
 #error-container h3 {
-    letter-spacing: 2px;
+    letter-spacing: -0.4px;
     font-weight: 600;
 }
 
@@ -31,6 +30,5 @@
 }
 
 #error-container p {
-    font-family: "Poppins", sans-serif;
     letter-spacing: 1px;
 }

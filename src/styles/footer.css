@@ -15,6 +15,6 @@ footer {
 }
 
 .footer-copyright {
-    background-Color: black;
-    color: white;
+    color: rgb(108, 108, 108);
+    font-weight: 500;
 }

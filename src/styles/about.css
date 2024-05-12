@@ -1,0 +1,66 @@
+.about-bg {
+  margin-top: 4%;
+  font-family: poppins;
+  margin-bottom: 9%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#about-hd-img {
+  height: 230px;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: bottom;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-hd-img h3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-breadcrumb {
+  margin-bottom: 6%;
+}
+
+.about-bg h4 {
+  font-weight: 600;
+  margin-bottom: 1%;
+  color: rgb(51, 50, 50);
+  letter-spacing: 1px;
+  margin-top: 3%;
+}
+
+.about-bg p {
+  font-family: poppins;
+  text-align: left;
+  color: rgb(71, 71, 71);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 693px) {
+  .about-breadcrumb {
+    display: none;
+  }
+
+  .about-bg h4 {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-bg {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

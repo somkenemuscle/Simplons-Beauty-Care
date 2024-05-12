@@ -24,7 +24,7 @@ function Gallery() {
                 <h2>OUR GALLERY PAGE</h2>
                 <p>Pictures of our products and our beautiful customers</p>
             </section>
-            <div className='gallery-bg container'>
+            <div className='gallery-bg'>
                 <div className='row'>
                     {productImages.map((image, index) => (
                         <div key={index} className='hidden col-lg-4 col-md-6 col-sm-6 col-12 gallery-item'>

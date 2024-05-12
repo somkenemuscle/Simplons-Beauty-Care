@@ -14,7 +14,6 @@ function ProductCards({ src, name, price, id }) {
   function handleCart(id) {
     const product = skincareProducts.find(product => product.id === id);
     setCart([...cart, product]); // Adding product to cart
-    console.log(cart)
   }
 
   return (
