@@ -67,7 +67,7 @@ function Carts() {
                     </div>
                   </div>
                   <div className="buttons">
-                    <button className="checkout-btn">Checkout</button>
+                    <button className="checkout-btn">Checkout (${totalPrice})</button>
                     <p onClick={clearCart} id='clear-cart'>Clear Cart ?</p>
                   </div>
                 </div>

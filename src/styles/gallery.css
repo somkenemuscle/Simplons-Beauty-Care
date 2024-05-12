@@ -1,0 +1,46 @@
+.gallery-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.gallery-item img:hover {
+    opacity: 0.7;
+}
+
+.fullscreen-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.fullscreen-content {
+    position: relative;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.fullscreen-content img {
+    max-width: 100%;
+    max-height: 80vh;
+    /* Adjust as needed */
+    display: block;
+    margin: 0 auto;
+}
