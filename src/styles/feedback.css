@@ -1,0 +1,12 @@
+.feedback-carousel {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    padding: 2px;
+    font-size: 10px;
+}

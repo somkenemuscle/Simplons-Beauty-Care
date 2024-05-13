@@ -57,12 +57,11 @@
 }
 
 #best-sellers-section h2 {
-    text-align: left;
+    text-align: center;
     font-size: 25px;
     letter-spacing: -0.1px;
     padding-bottom: 1%;
-    font-weight: 600;
-    color: black;
+    font-weight: bold;
 }
 
 

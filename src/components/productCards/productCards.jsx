@@ -3,17 +3,26 @@ import '../../styles/productCard.css'
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { skincareProducts } from '../../database/skincare';
+import { bestSellerProducts } from '../../database/bestsellers';
 import { useCart } from '../../context/cartContext';
 
 
-function ProductCards({ src, name, price, id }) {
+function ProductCards({ src, name, price, id, category }) {
   // cart global state
   const { cart, setCart } = useCart();
 
   //handle cart functionality
-  function handleCart(id) {
-    const product = skincareProducts.find(product => product.id === id);
-    setCart([...cart, product]); // Adding product to cart
+  function handleCart(id, category) {
+    //skincare
+    if (category === 'skincare') {
+      const product = skincareProducts.find(product => product.id === id);
+      setCart([...cart, product]); // Adding product to cart
+    } 
+    //best seller
+    else if (category === 'best-seller') {
+      const product = bestSellerProducts.find(product => product.id === id);
+      setCart([...cart, product]); // Adding product to cart
+    }
   }
 
   return (
@@ -26,7 +35,7 @@ function ProductCards({ src, name, price, id }) {
           <p className="card-text">$ {price} USD </p>
         </div>
       </div>
-      <button onClick={() => handleCart(id)} className="btn btn-product-card btn-sm" data-mdb-ripple-init>ADD TO CART </button>
+      <button onClick={() => handleCart(id, category)} className="btn btn-product-card btn-sm" data-mdb-ripple-init>ADD TO CART </button>
     </>
   )
 }

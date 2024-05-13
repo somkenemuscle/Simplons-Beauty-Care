@@ -4,8 +4,9 @@ import Footer from '../../components/footer/footer';
 import ProductCards from '../../components/productCards/productCards';
 import useSlideAnimation from '../../animation/useSlideAnimation';
 import CategoryCard from '../../components/categorycard/categoryCard';
-
 import '../../styles/home.css'
+import Feedback from '../../components/feedback/feedback';
+import { bestSellerProducts } from '../../database/bestsellers';
 
 function Home() {
   //Fade in Animation
@@ -29,34 +30,17 @@ function Home() {
         <div className="container text-center">
           <h2>MEET OUR BEST SELLERS</h2>
           <div className="row">
-            <div className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <ProductCards
-                src='https://credobeauty.com/cdn/shop/files/Kosas_Hotliner_01_100_1946x.png?v=1714615018'
-                name='Castor A+ Oil'
-                price='18.15'
-              />
-            </div>
-            <div className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <ProductCards
-                src='https://credobeauty.com/cdn/shop/files/Evolvh_InstaVolumeCleansingTreatment_01_1946x.png?v=1697121088'
-                name='Tumeric Mask'
-                price='12.45'
-              />
-            </div>
-            <div className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <ProductCards
-                src='https://credobeauty.com/cdn/shop/files/GOOPGENES_All-in-One_Nourishing_Face_Cream_01_1946x.png?v=1713643475'
-                name='Collagen Vit D Oil'
-                price='87.00'
-              />
-            </div>
-            <div className="best-sellers-div col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <ProductCards
-                src='https://credobeauty.com/cdn/shop/products/juice_beauty_green_apple_brightening_emulsion_at_credo_beauty_1946x.jpg?v=1694727561'
-                name='Face Toner'
-                price='30.00'
-              />
-            </div>
+            {bestSellerProducts.map((product, index) => (
+              <div key={index} className="best-sellers-div col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <ProductCards
+                  src={product.imageSrc}
+                  name={product.name}
+                  price={product.price}
+                  id={product.id}
+                  category={product.category}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -83,7 +67,7 @@ function Home() {
 
 
       {/* feedback option */}
-
+      <Feedback />
       {/* footer section */}
       <section>
         <Footer />
