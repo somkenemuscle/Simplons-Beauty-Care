@@ -2,8 +2,9 @@ import React from 'react'
 import Carousel from '../../components/carousel/carousel';
 import Footer from '../../components/footer/footer';
 import ProductCards from '../../components/productCards/productCards';
-import LogoCarousel from '../../components/logoCarousel/logoCarousel';
 import useSlideAnimation from '../../animation/useSlideAnimation';
+import CategoryCard from '../../components/categorycard/categoryCard';
+
 import '../../styles/home.css'
 
 function Home() {
@@ -16,6 +17,12 @@ function Home() {
       <section className='hidden'>
         <Carousel />
       </section>
+
+      {/* shop by category */}
+      <section className='hidden shop-by-category-container'>
+        <CategoryCard />
+      </section>
+
 
       {/* best sellers section */}
       <section className='hidden' id='best-sellers-section'>
@@ -62,7 +69,7 @@ function Home() {
             <div className="img2-text col-xl-6 col-md-6 col-sm-12">
               <h3>Get up to 20% discount </h3>
               <p>Can't decide between your favorites? Get them all! Our
-                premade sets include our best-selling products like Liquid Lash™ Extensions Mascara, Infinity Waterproof Eyeliner™, and our luminous Brilliant Eye Brightener™.
+                premade sets include our best-selling products like Liquid Lash™ Extensions Mascara™.
                 For every product we will be giving out thus 20% discount.
               </p>
               <button>SHOP ALL SETS</button>
@@ -73,10 +80,7 @@ function Home() {
         </div>
       </section>
 
-      {/* logo-carousel section */}
-      {/* <section className='hidden'>
-        <LogoCarousel />
-      </section> */}
+
 
       {/* feedback option */}
 
