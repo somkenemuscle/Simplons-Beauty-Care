@@ -31,7 +31,7 @@ function Home() {
           <h2>MEET OUR BEST SELLERS</h2>
           <div className="row">
             {bestSellerProducts.map((product, index) => (
-              <div key={index} className="best-sellers-div col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+              <div key={index} className="product-div col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                 <ProductCards
                   src={product.imageSrc}
                   name={product.name}
