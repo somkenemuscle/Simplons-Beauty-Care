@@ -3,11 +3,13 @@
   margin-bottom: 10%;
   font-family: "Inter", sans-serif;
 }
+
 .breadcrumb {
   margin-top: 3%;
   margin-left: 1%;
   margin-bottom: 3%;
 }
+
 .breadcrumb-item {
   color: black;
 }
@@ -16,6 +18,24 @@
   text-align: center;
   margin-top: 5%;
   margin-bottom: 13%;
+  font-family: poppins;
+}
+
+#no-cart-page h4 {
+  font-weight: bold;
+}
+
+#no-cart-page button {
+  border: none;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  letter-spacing: -0.1px;
+  font-family: inter;
+}
+
+#no-cart-page button:hover {
+  background-color: rgb(36, 36, 36);
 }
 
 #cart-header {
@@ -67,7 +87,7 @@
 }
 
 .remove-btn:hover {
-  color: #ff2121;
+  color: #310000;
 }
 
 
@@ -142,15 +162,19 @@
 @media screen and (max-width: 501px) {
   .order-summary {
     padding: 20px 80px 50px 80px;
-
-
   }
 }
 
 @media screen and (max-width: 406px) {
   .order-summary {
     padding: 20px 50px 50px 50px;
+  }
+}
 
-
+@media screen and (max-width: 536px) {
+  #no-cart-page {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 15%;
   }
 }

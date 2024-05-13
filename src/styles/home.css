@@ -18,17 +18,22 @@
     letter-spacing: -0.1px;
 }
 
+.carousel-text-bg h2 {
+    font-weight: bold;
+}
+
 .carousel-text-bg button {
     background-color: black;
     color: white;
     border: none;
-    padding: 3px 13px 3px 13px;
+    padding: 5px 13px 5px 13px;
     border: 1px solid black;
+    border-radius: 3px;
+    font-weight: 500;
 }
 
 .carousel-text-bg button:hover {
-    background-color: white;
-    color: black;
+    background-color: rgb(42, 41, 41);
     transition: 0.2s;
 }
 
@@ -41,7 +46,8 @@
 
 #best-sellers-section h2 {
     text-align: left;
-    letter-spacing: 1px;
+    font-size: 25px;
+    letter-spacing: -0.1px;
     padding-bottom: 1%;
     font-weight: 600;
     color: black;

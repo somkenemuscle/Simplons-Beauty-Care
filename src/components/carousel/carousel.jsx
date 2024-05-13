@@ -17,7 +17,7 @@ function carousel() {
                         <div className="carousel-text-bg col-xl-4 col-md-5 col-sm-12">
                             <h2>Embark On Your Skincare Journey</h2>
                             <p>Self care is a personal journey and we're here to guide you along the way. Contact our self care experts for more help.</p>
-                            <button>SHOP NOW</button>
+                            <button>GET STARTED</button>
                         </div>
                     </div>
                 </div>
@@ -42,11 +42,11 @@ function carousel() {
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
             </button>
-            {/* <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
-            </button> */}
+            </button>
         </div>
     )
 }

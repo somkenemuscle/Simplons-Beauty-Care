@@ -20,9 +20,11 @@ function Carts() {
       <div className="cart-container">
         {cart.length === 0 ? (
           <div id='no-cart-page'>
-            <h4>Your cart is empty</h4>
+            <h4>YOUR CART IS EMPTY</h4>
             <p>Browse our categories and discover our best deals!</p>
-            <button>Start Shopping</button>
+            <Link to='/'>
+              <button>START SHOPPING</button>
+            </Link>
           </div>
         ) : (
           <div className="cart-items">

@@ -17,12 +17,6 @@ function Home() {
         <Carousel />
       </section>
 
-      {/* promo section */}
-      {/* <section className='hidden' id='selfcare-section'>
-        <h2>START YOUR SELF CARE JOURNEY</h2>
-        <p></p>
-      </section> */}
-
       {/* best sellers section */}
       <section className='hidden' id='best-sellers-section'>
         <div className="container text-center">
@@ -80,9 +74,9 @@ function Home() {
       </section>
 
       {/* logo-carousel section */}
-      <section className='hidden'>
+      {/* <section className='hidden'>
         <LogoCarousel />
-      </section>
+      </section> */}
 
       {/* feedback option */}
 
