@@ -49,7 +49,7 @@
 
 }
 
-.best-sellers-div {
+.product-div {
     margin-bottom: 3%;
 }
 
@@ -69,7 +69,7 @@
 
 /*  MEDIA WIDTH STYLING */
 @media (min-width: 400px) and (max-width: 581px) {
-    .best-sellers-div {
+    .product-div {
         flex-basis: 50%;
         max-width: 50%;
     }

@@ -4,6 +4,11 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { skincareProducts } from '../../database/skincare';
 import { bestSellerProducts } from '../../database/bestsellers';
+import { hairCareProducts } from '../../database/hair';
+import { jewelryProducts } from '../../database/jewellry';
+import { makeupProducts } from '../../database/makeup';
+import { nailProducts } from '../../database/nail';
+import { weddingKits } from '../../database/wedding-kits';
 import { useCart } from '../../context/cartContext';
 
 
@@ -13,15 +18,21 @@ function ProductCards({ src, name, price, id, category }) {
 
   //handle cart functionality
   function handleCart(id, category) {
-    //skincare
-    if (category === 'skincare') {
-      const product = skincareProducts.find(product => product.id === id);
+    const categoryProducts = {
+      'skincare': skincareProducts,
+      'best-seller': bestSellerProducts,
+      'hair': hairCareProducts,
+      'jewellry': jewelryProducts,
+      'makeup': makeupProducts,
+      'nail': nailProducts,
+      'wedding': weddingKits
+    };
+
+    const product = categoryProducts[category]?.find(product => product.id === id);
+    if (product) {
       setCart([...cart, product]); // Adding product to cart
-    } 
-    //best seller
-    else if (category === 'best-seller') {
-      const product = bestSellerProducts.find(product => product.id === id);
-      setCart([...cart, product]); // Adding product to cart
+    } else {
+      console.error(`Product not found in category: ${category}`);
     }
   }
 

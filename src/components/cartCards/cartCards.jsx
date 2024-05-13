@@ -3,7 +3,7 @@ import '../../styles/cart.css'
 import { MdDelete } from "react-icons/md";
 import { useCart } from '../../context/cartContext';
 
-function CartCards({ img, name, price, id }) {
+function CartCards({ img, name, price, id}) {
     // cart global state
     const { cart, setCart } = useCart();
     // Function to remove item from cart
@@ -20,6 +20,7 @@ function CartCards({ img, name, price, id }) {
                     <div className="item-details">
                         <span>{name}</span>
                         <p>Price: <span className="item-price">${price}</span></p>
+
                     </div>
                     <button onClick={() => removeFromCart(id)} className="remove-btn"><MdDelete /></button>
                 </div>
