@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../../styles/contacts.css';
+import Footer from '../../components/footer/footer';
+import useSlideAnimation from '../../animation/useSlideAnimation';
+import { FaPhone } from "react-icons/fa6";
 
 function MapComponent({ address }) {
   const [coordinates, setCoordinates] = useState(null);
@@ -58,35 +61,61 @@ function MapComponent({ address }) {
   }, [coordinates, address]);
 
   return (
-    <div id={`map-${address}`} style={{ width: '100%', height: '250px' }}></div>
+    <div className='map' id={`map-${address}`} style={{ width: '100%', height: '250px' }}></div>
   );
 }
 
 function Contacts() {
+  useSlideAnimation();
   // Hardcoded addresses
   const addresses = [
-    { address: "31, Popoola Street, Somolu, Lagos", phone: "+234 123 456 7890" },
-    { address: "Anambra State", phone: "+234 123 456 7890" },
-    { address: "Benue State", phone: "+234 123 456 7890" },
-    { address: "Ogun State", phone: "+234 123 456 7890" }
+    { address: "2 Ovie Nmhada Street, Somolu", phone: "+234 123 456 7890" },
+    { address: "Olayinka Adewuyi St, Lekki Phase I", phone: "+234 123 456 7890" },
+    { address: "Anthony, Ikeja 105102, Lagos", phone: "+234 123 456 7890" }
   ];
 
   return (
-    <div className="container">
-      <div className="row">
-        {addresses.map((addressInfo, index) => (
-          <div className="col-md-6" key={index}>
-            <div className="card" style={{ width: '50%' }}>
-              <div className="card-body">
-                <MapComponent address={addressInfo.address} />
-                <p className="card-text">{addressInfo.address}</p>
-                <br />
-                <p className="card-text">Phone: {addressInfo.phone}</p>
+    <div className='hidden' id='contact-us-container'>
+      <form>
+        <div className="mb-3">
+          <label for="name" className="form-label">Name</label>
+          <input type="text" className="form-control" id="name" required />
+        </div>
+        <div className="mb-3">
+          <label for="exampleInputEmail1" className="form-label">Email address</label>
+          <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+        </div>
+        <div className="form-floating">
+          <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }} required></textarea>
+          <label for="floatingTextarea2">Message</label>
+        </div>
+        <br />
+        <button style={{ width: '100%' }} type="submit" className="btn btn-dark">Send</button>
+      </form>
+      <p>You can reach out to us if you have any questions </p>
+
+      <br />
+
+      <h4>OUR LOCATIONS</h4>
+      <div id='map-container'>
+        <div className="row">
+          {addresses.map((addressInfo, index) => (
+            <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
+              <div>
+                <div>
+                  <MapComponent address={addressInfo.address} />
+                  <span id='address'>{addressInfo.address}</span>
+                  <br />
+                  <span id='number'><FaPhone /> {addressInfo.phone}</span>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
+
+
+      <Footer />
     </div>
   );
 }
