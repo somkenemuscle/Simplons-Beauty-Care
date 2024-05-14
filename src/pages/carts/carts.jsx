@@ -69,7 +69,9 @@ function Carts() {
                     </div>
                   </div>
                   <div className="buttons">
+                    <Link to='/cart/checkout'>
                     <button className="checkout-btn">Checkout (${totalPrice})</button>
+                    </Link>
                     <p onClick={clearCart} id='clear-cart'>Clear Cart ?</p>
                   </div>
                 </div>

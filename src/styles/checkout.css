@@ -1,0 +1,44 @@
+#checkout-container {
+    margin-top: 6%;
+}
+
+#checkout-container h3 {
+    margin-top: 6%;
+    font-size: 17px;
+    text-align: center;
+    word-spacing: 3px;
+    margin-bottom: 2%;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#checkout-container form {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+}
+
+
+@media screen and (max-width: 1086px) {
+    #checkout-container form {
+        margin-left: 23%;
+        margin-right: 25%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    #checkout-container form {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    #checkout-container form {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+}
