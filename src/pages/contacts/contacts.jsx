@@ -78,16 +78,16 @@ function Contacts() {
     <div className='hidden' id='contact-us-container'>
       <form>
         <div className="mb-3">
-          <label for="name" className="form-label">Name</label>
+          <label htmlFor="name" className="form-label">Name</label>
           <input type="text" className="form-control" id="name" required />
         </div>
         <div className="mb-3">
-          <label for="exampleInputEmail1" className="form-label">Email address</label>
+          <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
           <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
         </div>
         <div className="form-floating">
           <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }} required></textarea>
-          <label for="floatingTextarea2">Message</label>
+          <label htmlFor="floatingTextarea2">Message</label>
         </div>
         <br />
         <button style={{ width: '100%' }} type="submit" className="btn btn-dark">Send</button>

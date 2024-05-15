@@ -6,7 +6,7 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgb(168, 165, 165);
+    background-color: rgb(245, 245, 245);
     padding: 2px;
     font-size: 10px;
     position: relative;
@@ -16,18 +16,80 @@
 .feedb p {
     font-weight: 500;
     letter-spacing: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .feedb h6 {
-    font-weight: 100;
-    font-family: comic sans ms;
+    font-weight: bold;
 }
+
+#review-btn{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 4%;
+    font-weight: 500;
+}
+#review-btn:hover{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    
+}
+
+
+/* Feedback form styling */
+#feedback-form-container {
+    margin-top: 5%;
+}
+#feedback-form-container h5{
+    font-weight: bold;
+    margin-bottom: 3%;
+    letter-spacing: 1px;
+}
+#feedback-form-container .alert {
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+#feedback-form-container form {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+}
+
+@media screen and (max-width: 1086px) {
+    #feedback-form-container form {
+        margin-left: 23%;
+        margin-right: 25%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    #feedback-form-container form {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    #feedback-form-container form {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+}
+
+
 
 @media screen and (max-width: 484px) {
     .feedback-carousel {
         margin-top: 27%;
     }
-    
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
@@ -35,4 +97,21 @@
         bottom: 200px;
 
     }
+}
+
+@media screen and (max-width: 949px) {
+    .feedb p {
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .feedb p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
 }
