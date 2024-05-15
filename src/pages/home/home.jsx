@@ -20,9 +20,12 @@ function Home() {
       </section>
 
       {/* shop by category */}
-      <section className='hidden shop-by-category-container'>
-        <CategoryCard />
-      </section>
+      <div className='container'>
+        <section className='container hidden shop-by-category-container'>
+          <CategoryCard />
+        </section>
+      </div>
+
 
 
       {/* best sellers section */}
@@ -54,7 +57,6 @@ function Home() {
               <h3>Get up to 20% discount </h3>
               <p>Can't decide between your favorites? Get them all! Our
                 premade sets include our best-selling products like Liquid Lash™ Extensions Mascara™.
-                For every product we will be giving out thus 20% discount.
               </p>
               <button>SHOP ALL SETS</button>
             </div>
@@ -67,7 +69,9 @@ function Home() {
 
 
       {/* feedback option */}
-      <Feedback />
+      <div className='container'>
+        <Feedback />
+      </div>
       {/* footer section */}
       <section>
         <Footer />

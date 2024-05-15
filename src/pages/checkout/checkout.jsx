@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../../styles/checkout.css';
 import { useCart } from '../../context/cartContext';
 import { CiDeliveryTruck } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 function Checkout() {
     // cart global state
@@ -19,11 +20,17 @@ function Checkout() {
     return (
         <div>
             {orderPlaced ? (
-                <div className="alert alert-success" role="alert">
-                    Order placed successfully!
+                <div>
+                    <div className="alert alert-success" role="alert">
+                        Order placed successfully!
+                    </div>
+                    <Link to='/'>
+                        <button>Keep Shopping</button>
+                    </Link>
                 </div>
+
             ) : (
-                <div  id='checkout-container'>
+                <div id='checkout-container'>
                     <h3>Delivery Details <CiDeliveryTruck /></h3>
                     <form onSubmit={handlePlaceOrder}>
                         <div className="mb-3">

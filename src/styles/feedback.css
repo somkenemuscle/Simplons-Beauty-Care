@@ -1,12 +1,38 @@
 .feedback-carousel {
     text-align: center;
-    margin-top: 4%;
+    margin-top: 20%;
     margin-bottom: 5%;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: black;
+    background-color: rgb(168, 165, 165);
     padding: 2px;
     font-size: 10px;
+    position: relative;
+    bottom: 120px;
+}
+
+.feedb p {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.feedb h6 {
+    font-weight: 100;
+    font-family: comic sans ms;
+}
+
+@media screen and (max-width: 484px) {
+    .feedback-carousel {
+        margin-top: 27%;
+    }
+    
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        position: relative;
+        bottom: 200px;
+
+    }
 }
