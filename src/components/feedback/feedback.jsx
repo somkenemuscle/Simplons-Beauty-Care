@@ -30,7 +30,6 @@ function Feedback() {
                     <div className="d-block w-100">
                         <p>"As someone with sensitive skin, I'm always hesitant to try new skincare products. But this one has been a game-changer for me. Not only is it gentle and non-irritating, but it's also incredibly effective. My skin feels hydrated, calm, and has a healthy glow that I haven't seen in years. I highly recommend it!"</p>
                         <h6><strong>Ada Turin. Y</strong></h6>
-
                     </div>
                 </div>
 
@@ -41,7 +40,6 @@ function Feedback() {
                             <h6><strong>{item.name}</strong></h6>
                         </div>
                     </div>
-
                 ))}
 
             </div>

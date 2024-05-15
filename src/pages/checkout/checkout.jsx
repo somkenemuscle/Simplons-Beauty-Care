@@ -25,7 +25,9 @@ function Checkout() {
                         Order placed successfully!
                     </div>
                     <Link to='/'>
-                        <button>Keep Shopping</button>
+                        <div style={{ textAlign: 'center' }}>
+                            <button id='after-order-btn'>Continue Shopping</button>
+                        </div>
                     </Link>
                 </div>
 

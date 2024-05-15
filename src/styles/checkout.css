@@ -12,6 +12,16 @@
     letter-spacing: 2px;
 }
 
+#after-order-btn {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 2%;
+    border-radius: 4px;
+}
+
+
 #checkout-container form {
     margin-left: 30%;
     margin-right: 30%;

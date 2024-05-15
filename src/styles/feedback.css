@@ -31,6 +31,7 @@
     border: none;
     margin-top: 4%;
     font-weight: 500;
+    border-radius: 4px;
 }
 #review-btn:hover{
     background-color: rgb(56, 55, 55);

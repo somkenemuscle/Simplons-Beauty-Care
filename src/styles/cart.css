@@ -53,7 +53,8 @@
   font-family: poppins;
 
 }
-.item-category{
+
+.item-category {
   color: rgb(116, 116, 116);
   font-weight: 100;
 }
@@ -95,7 +96,6 @@
 .remove-btn:hover {
   color: #310000;
 }
-
 
 /* order summary style */
 .order-summary {
