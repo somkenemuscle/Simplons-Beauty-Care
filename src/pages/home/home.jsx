@@ -79,37 +79,19 @@ function Home() {
       <section className='img2-section hidden'>
         <div className="container">
           <div className="row">
-            <div className="img2-text col-xl-6 col-md-6 col-sm-12">
-              <h3>Get up to 20% discount </h3>
-              <p>Can't decide between your favorites? Get them all! Our
-                premade sets include our best-selling products like Liquid Lash™ Extensions Mascara™.
+            <div className="img2-text col-lg-6 col-md-6 col-sm-12">
+              <h3>Our Upcoming Product </h3>
+              <p>Our new hydration cream and serum set, which will be available from 2nd of june 2024, and would be going 
+                for a price of $123™.
               </p>
-              <button>SHOP ALL SETS</button>
+              <button>SHOP AVAILABLE SKINCARE</button>
             </div>
-            <div className='col-xl-6 col-md-6 col-sm-12 ' id='img-bg'>
+            <div className='col-lg-6 col-md-6 col-sm-12 ' id='img-bg'>
             </div>
           </div>
         </div>
       </section>
 
-
-      {/* Upcoming products section */}
-      <section className='upcoming-section hidden'>
-        <div className="container">
-          <div className='row'>
-            <div className='col-lg-6'>
-              <img
-                src="https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="A beautiful nature scene"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-            <div className='col-lg-6'>
-              <h3>Upcoming Products Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi provident unde aspernatur earum atque quis enim perferendis quisquam aliquid fugiat aliquam sit officia dolores illo et, ut cupiditate nihil sequi?</h3>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       {/* feedback option */}

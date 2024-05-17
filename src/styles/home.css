@@ -101,6 +101,8 @@
 
 .img2-section h3 {
     letter-spacing: -1px;
+    position: relative;
+    top: 32%;
 }
 
 .img2-section p {
@@ -109,6 +111,8 @@
     font-weight: 400;
     line-height: 25px;
     padding-right: 10px;
+    position: relative;
+    top: 32%;
 }
 
 .img2-section button {
@@ -119,6 +123,8 @@
     border: 1px solid black;
     letter-spacing: 1px;
     font-size: 15px;
+    position: relative;
+    top: 32%;
 }
 
 .img2-section button:hover {
@@ -129,9 +135,10 @@
 
 .img2-section #img-bg {
     height: 50vh;
-    background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
+    background-image: url('https://www.cloud10beauty.com/cdn/shop/files/pestle-and-mortar-the-ultimate-hydration-gift-set.jpg?v=1708513134&width=990');
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 10px;
     margin-left: -9px;
 }
@@ -145,6 +152,7 @@
 .upcoming-section {
     margin-top: 6%;
 }
+
 
 /* scroll animation */
 .hidden {
