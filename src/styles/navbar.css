@@ -7,19 +7,19 @@ nav {
     letter-spacing: 2px;
     text-align: center;
     padding: 5px;
-    font-family: "Poppins", sans-serif;
 
 }
 
 .navbar-brand .main-text {
     font-size: 17px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 700;
     color: black;
+    margin-top: -5%;
 }
 
 .navbar-brand .sub-text {
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 3px;
     margin-top: -7px;
     color: rgb(120, 117, 117);

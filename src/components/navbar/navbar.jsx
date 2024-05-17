@@ -1,6 +1,8 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 import '../../styles/navbar.css'
+import { GiThreeLeaves } from "react-icons/gi";
+
 
 function navbar() {
     return (
@@ -8,6 +10,7 @@ function navbar() {
             <nav className="navbar sticky-top navbar-expand-lg">
                 <div className="navbar-container container">
                     <Link className="navbar-brand" to="/">
+                        <GiThreeLeaves />
                         <div className="main-text">SIMPLON</div>
                         <div className="sub-text">BEAUTY CARE</div>
                     </Link>
