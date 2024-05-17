@@ -81,7 +81,7 @@ function Home() {
           <div className="row">
             <div className="img2-text col-lg-6 col-md-6 col-sm-12">
               <h3>Our Upcoming Product </h3>
-              <p>Our new hydration cream and serum set, which will be available from 2nd of june 2024, and would be going 
+              <p>Our new hydration cream and serum set, which will be available from 2nd of june 2024, and would be going
                 for a price of $123™.
               </p>
               <button>SHOP AVAILABLE SKINCARE</button>
