@@ -64,6 +64,24 @@
     font-weight: bold;
 }
 
+.mission-container {
+    margin-bottom: 8%;
+}
+
+.mission-container h4 {
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.mission-icons {
+    font-size: 55px;
+}
+
+.mission-container p {
+    margin-top: 6%;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
 
 /* image discount section styling */
 .img2-section .img2-text {

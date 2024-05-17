@@ -7,6 +7,10 @@ import CategoryCard from '../../components/categorycard/categoryCard';
 import '../../styles/home.css'
 import Feedback from '../../components/feedback/feedback';
 import { bestSellerProducts } from '../../database/bestsellers';
+import { TbFlowerOff } from "react-icons/tb";
+import { BsFillExclamationOctagonFill } from "react-icons/bs";
+import { GiRabbit } from "react-icons/gi";
+
 
 function Home() {
   //Fade in Animation
@@ -47,6 +51,28 @@ function Home() {
           </div>
         </div>
       </section>
+
+
+
+      {/* mission section */}
+      <div className="mission-container container text-center">
+        <h4>About Our Products</h4>
+        <div className="row">
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <span className='mission-icons'><TbFlowerOff /></span>
+            <p>Our products are 100% free of gluten containing materials or derivatives of gluten containing grains handled at any of our facilities</p>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <span className='mission-icons'><BsFillExclamationOctagonFill /></span>
+            <p>Our products do not contain ingredients or additives that are from an animal source unless otherwise specified.</p>
+          </div>
+          <div className="col-lg-4 col-md-12 col-sm-12">
+            <span className='mission-icons'><GiRabbit /></span>
+            <p>We believe that animals should not suffer or die to test cosmetics or cosmetic ingredients. We support animal protection </p>
+          </div>
+        </div>
+      </div>
+
 
 
       {/* img section */}
