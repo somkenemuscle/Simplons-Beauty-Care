@@ -64,13 +64,14 @@
     font-weight: bold;
 }
 
+/* Mission about products styling */
 .mission-container {
     margin-bottom: 8%;
 }
 
 .mission-container h4 {
     font-weight: bold;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 
 .mission-icons {
@@ -81,6 +82,14 @@
     margin-top: 6%;
     font-weight: 550;
     letter-spacing: 1px;
+}
+
+.no-icon {
+    color: rgb(133, 3, 3);
+}
+
+.flower-icon {
+    color: rgb(55, 81, 15);
 }
 
 /* image discount section styling */
@@ -133,29 +142,9 @@
 }
 
 
-/* logo section */
-.logo-container {
-    padding-top: 6%;
-    padding-bottom: 5%;
+.upcoming-section{
+    margin-top: 6%;
 }
-
-.logo-container .row {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.logos {
-    background: white;
-    height: 25px;
-    margin-bottom: 15%;
-}
-
-.logos:hover {
-    opacity: 0.6;
-    transition: 0.1s;
-    cursor: pointer;
-}
-
 /* scroll animation */
 .hidden {
     opacity: 0;

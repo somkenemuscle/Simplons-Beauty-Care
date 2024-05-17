@@ -55,19 +55,19 @@ function Home() {
 
 
       {/* mission section */}
-      <div className="mission-container container text-center">
+      <div className="hidden mission-container container text-center">
         <h4>About Our Products</h4>
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <span className='mission-icons'><TbFlowerOff /></span>
+            <span className='flower-icon mission-icons'><TbFlowerOff /></span>
             <p>Our products are 100% free of gluten containing materials or derivatives of gluten containing grains handled at any of our facilities</p>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <span className='mission-icons'><BsFillExclamationOctagonFill /></span>
+            <span className='no-icon mission-icons'><BsFillExclamationOctagonFill /></span>
             <p>Our products do not contain ingredients or additives that are from an animal source unless otherwise specified.</p>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
-            <span className='mission-icons'><GiRabbit /></span>
+            <span className='rabbit-icon mission-icons'><GiRabbit /></span>
             <p>We believe that animals should not suffer or die to test cosmetics or cosmetic ingredients. We support animal protection </p>
           </div>
         </div>
@@ -93,11 +93,31 @@ function Home() {
       </section>
 
 
+      {/* Upcoming products section */}
+      <section className='upcoming-section hidden'>
+        <div className="container">
+          <div className='row'>
+            <div className='col-lg-6'>
+              <img
+                src="https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="A beautiful nature scene"
+                style={{ maxWidth: '100%', height: 'auto' }}
+              />
+            </div>
+            <div className='col-lg-6'>
+              <h3>Upcoming Products Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi provident unde aspernatur earum atque quis enim perferendis quisquam aliquid fugiat aliquam sit officia dolores illo et, ut cupiditate nihil sequi?</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* feedback option */}
-      <div className='container'>
+      <div className='hidden container'>
         <Feedback />
       </div>
+
+
       {/* footer section */}
       <section>
         <Footer />

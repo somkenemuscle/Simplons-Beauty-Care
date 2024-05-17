@@ -26,17 +26,9 @@ nav {
 }
 
 .navbar-brand:hover {
-    color: #897663;
     cursor: pointer;
 }
 
-.navbar-brand:active {
-    color: #897663;
-}
-
-.navbar-brand:focus {
-    color: #897663;
-}
 
 .nav-link {
     letter-spacing: -0.3px;
