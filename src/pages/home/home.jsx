@@ -68,7 +68,7 @@ function Home() {
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <span className='rabbit-icon mission-icons'><GiRabbit /></span>
-            <p>We believe that animals should not suffer or die to test cosmetics or cosmetic ingredients. We support animal protection </p>
+            <p>We believe that animals should not suffer or die to test cosmetics or cosmetic ingredients.We support animal protection </p>
           </div>
         </div>
       </div>
