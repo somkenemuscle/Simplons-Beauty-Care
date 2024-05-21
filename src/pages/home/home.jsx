@@ -64,7 +64,7 @@ function Home() {
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
             <span className='no-icon mission-icons'><BsFillExclamationOctagonFill /></span>
-            <p>Our products do not contain ingredients or additives that are from an animal source unless otherwise it is specified.</p>
+            <p>Our products do not contain ingredients or additives that are from an animal source unless otherwise it is specified</p>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <span className='rabbit-icon mission-icons'><GiRabbit /></span>
