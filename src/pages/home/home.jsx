@@ -84,6 +84,7 @@ function Home() {
               <p>Our new hydration cream and serum set, which will be available from 2nd of june 2024, and would be going
                 for a price of $123™.
               </p>
+              <br />
               <button>SHOP AVAILABLE SKINCARE</button>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12 ' id='img-bg'>
