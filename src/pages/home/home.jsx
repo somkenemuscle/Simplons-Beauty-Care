@@ -85,7 +85,9 @@ function Home() {
                 for a price of $132™.
               </p>
               <br />
-              <button>SHOP SKINCARE</button>
+              <button style={{
+                marginTop: '10px'
+              }}>SHOP SKINCARE</button>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12 ' id='img-bg'>
             </div>
