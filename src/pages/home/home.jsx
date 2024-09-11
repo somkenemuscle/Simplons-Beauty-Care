@@ -86,7 +86,7 @@ function Home() {
               </p>
               <br />
               <button style={{
-                marginTop: '10px'
+                marginTop: '16px'
               }}>SHOP SKINCARE</button>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12 ' id='img-bg'>
