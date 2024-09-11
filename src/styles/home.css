@@ -61,11 +61,11 @@
     font-size: 25px;
     letter-spacing: -0.1px;
     padding-bottom: 1%;
-    font-weight: bold;
 }
 
 /* Mission about products styling */
 .mission-container {
+    margin-top: 5%;
     margin-bottom: 8%;
 }
 
@@ -80,7 +80,6 @@
 
 .mission-container p {
     margin-top: 6%;
-    font-weight: 550;
     letter-spacing: 1px;
 }
 
@@ -168,6 +167,15 @@
 }
 
 /* media width styling */
+
+@media screen and (max-width: 410px) {
+    .img2-section #img-bg {
+        margin-left: 1%;
+        margin-left: 1%;
+
+    }
+}
+
 @media (max-width: 700px) {
     #promo-section {
         padding-bottom: 4%;
@@ -211,3 +219,4 @@
         transition: none;
     }
 }
+

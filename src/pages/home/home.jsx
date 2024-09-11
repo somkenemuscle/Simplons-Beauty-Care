@@ -55,7 +55,7 @@ function Home() {
 
 
       {/* mission section */}
-      <div className="hidden mission-container container text-center">
+      <div className="hidden mission-container container text-center ">
         <h4>About Our Products</h4>
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12">
@@ -82,10 +82,10 @@ function Home() {
             <div className="img2-text col-lg-6 col-md-6 col-sm-12">
               <h3>Our Upcoming Product </h3>
               <p>Our new hydration cream and serum set, which will be available from 2nd of june 2024, and would be going
-                for a price of $132™.
+                for a price of $132™. Look out for more discounts in the upcoming days!
               </p>
               <br />
-              <button style={{marginTop: '3%'}}>SHOP AVAILABLE SKINCARE</button>
+              <button>SHOP SKINCARE</button>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12 ' id='img-bg'>
             </div>
