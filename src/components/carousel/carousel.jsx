@@ -16,7 +16,7 @@ function carousel() {
                         </div>
                         <div className="carousel-text-bg col-xl-4 col-md-5 col-sm-12">
                             <h2>Embark On Your Skincare Journey</h2>
-                            <p>Self-care is a personal journey and we're here to guide you along the way. Contact our self-care experts for more help.</p>
+                            <p>Self-care is a personal journey and we are here to guide you along the way. Contact our self-care experts for more help.</p>
                             <button>GET STARTED</button>
                         </div>
                     </div>
