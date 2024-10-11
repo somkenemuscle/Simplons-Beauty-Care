@@ -29,7 +29,7 @@ function carousel() {
                         </div>
                         <div className="carousel-text-bg col-xl-4 col-md-5 col-sm-12">
                             <h2>Our Makeup Collection</h2>
-                            <p>Elevate your beauty routine with our exquisite makeup products. Designed to complement every skin tone and style.</p>
+                            <p>Elevate your beauty routine with our exquisite makeup products. Designed to complement every skin tone and style</p>
                             <button>SHOP NOW</button>
                         </div>
                     </div>
